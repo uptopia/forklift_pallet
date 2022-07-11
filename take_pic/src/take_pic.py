@@ -20,7 +20,7 @@ def img_rgb_callback(msg):
         k = cv2.waitKey(1)
 
         if k%256 == 32: #press SPACE
-            img_name = 'altek_img_{}.jpg'.format(cnt)
+            img_name = './test_img/altek_img_{}.jpg'.format(cnt)
             cv2.imwrite(img_name, rgb_image)
             print('{} saved'.format(img_name))
             cnt+=1
