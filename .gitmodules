@@ -1,0 +1,3 @@
+[submodule "Altek_ROS"]
+	path = Altek_ROS
+	url = https://github.com/owin1022/Altek_ROS.git
