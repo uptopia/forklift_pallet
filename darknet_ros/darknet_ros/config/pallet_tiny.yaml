@@ -1,0 +1,12 @@
+yolo_model:
+
+  config_file:
+    name: pallet_tiny_test.cfg
+  weight_file:
+    name: pallet_tiny_test.weights
+  threshold:
+    value: 0.6
+  detection_classes:
+    names:
+      - front
+      - hole
