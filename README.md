@@ -1,6 +1,8 @@
 # forklift_pallet
 
 cd ~/Altek_ws
+git clone --recursive https://github.com/uptopia/forklift_pallet.git src
+
 . devel/setup.bash
 roslaunch realsense2_camera rs_camera.launch
 
